@@ -209,7 +209,7 @@
       '<div class="rail-w"><div class="rail" id="r-fresh">' + list.map(card).join("") + '</div><button class="rnav" data-act="rail" data-k="r-fresh" aria-label="Scroll">' + I.chev + "</button></div></section>";
   }
   function stats() {
-    var X = [["₹15 Cr+", "recovered from payment reconciliation at PhonePe", "result"], ["₹8 Cr", "saved a year through payment routing", "result"], ["+4 pp", "travel payment success from A/B tested routes", "result"], ["4.6×", "sign-ups in two months, through the funnel", "result"]];
+    var X = [["₹15 Cr+", "recovered from payment reconciliation at PhonePe", "result"], ["₹8 Cr", "saved a year through payment routing", "result"], ["+4 pp", "travel payment success from A/B tested routes", "result"], ["~$110K", "in 2 months at 6x ROAS, launching H2H at Cogent", "result"]];
     return '<section class="sec stats"><h2>Pocket FM is the world\'s largest audio entertainment platform.<br><span>This is the growth manager who\'d like to help it get larger.</span></h2><div class="st-g">' +
       X.map(function (x) { return "<div><b>" + x[0] + "</b><span>" + esc(x[1]) + "</span>" + provChip(x[2]) + "</div>"; }).join("") + '</div></section>';
   }
@@ -460,7 +460,7 @@
   function trailer() {
     if (!TTS) { location.hash = "#/profile"; return; }
     PL.id = "_trailer"; PL.i = 0; PL.on = true; PL.paused = false;
-    speakText("Previously, on the Navya Juneja Show. Two years inside PhonePe's payment rails: eight crore rupees a year saved through routing, fifteen crore recovered from reconciliation, and four points more payment success. Then a plan to double a D2C brand's website revenue by fixing leaks instead of buying more traffic, pitched to its CEO. A pricing ladder from a ten rupee sachet. A product taken from sixty-five to three hundred sign-ups through the funnel. This season: Pocket FM. Every number on this page is labelled with where it came from. Press play on any show to keep listening.", function () { PL.on = false; renderPlayer(); });
+    speakText("Previously, on the Navya Juneja Show. Two years inside PhonePe's payment rails: eight crore rupees a year saved through routing, fifteen crore recovered from reconciliation, and four points more payment success. Then a plan to double a D2C brand's website revenue by fixing leaks instead of buying more traffic, pitched to its CEO. A pricing ladder from a ten rupee sachet. A career-prep product launched in the US that made about a hundred and ten thousand dollars in two months, at six times return on ad spend. This season: Pocket FM. Every number on this page is labelled with where it came from. Press play on any show to keep listening.", function () { PL.on = false; renderPlayer(); });
     renderPlayer();
   }
   function togglePause() {

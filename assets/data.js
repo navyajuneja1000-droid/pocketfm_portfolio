@@ -320,39 +320,47 @@ window.NJ = {
 
     {
       id: "h2h", code: "CASE-07", seller: "cogent", cats: ["growth",  "pricing",  "build"],
-      name: "H2H — 0→1 career-prep product: pricing, funnel & launch",
+      name: "H2H — 0→1 career-prep product: pricing, growth & launch",
       short: "H2H at Cogent", kind: "Professional · 0→1 product", badge: "Launched", date: "Aug 2025 – Jun 2026", sort: 202508,
-      price: { v: "~300", u: "sign-ups in 2 months", strike: "~65", off: "4.6× growth", prov: "result" },
-      hook: "From a competitor gap to a priced, packaged, launch-ready business.",
-      poster: { bg: "#E3EEFF", fg: "#0B3C7D", accent: "#1C6DD0", big: "65 → 300", small: "sign-ups in two months" },
+      price: { v: "~$110K", u: "revenue in 2 months", strike: "", off: "6x ROAS", prov: "result" },
+      hook: "From pay-after-placement to upfront pricing, then a launch that made ~$110K in two months.",
+      poster: { bg: "#E3EEFF", fg: "#0B3C7D", accent: "#1C6DD0", big: "~$110K", small: "in 2 months at 6x ROAS" },
       media: [],
       links: [],
-      pfm: "~65 → ~300 sign-ups in two months came from the funnel, not the budget: a free résumé audit as the first, no-risk step. Free episodes do the same job at Pocket FM. Tiers named for where the buyer is stuck is how I'd think about coin packs and passes: price on the moment, not the quantity.",
+      pfm: "Sign-ups grew 4.6× from fixing the funnel, not from budget: form drop-off cut from 72% to 45%, 18% of drop-offs won back by email, and a free résumé audit as the first, no-risk step that converted 8% of 1,500+ sign-ups to paid. Free episodes do the same job at Pocket FM. Tiers named for where the buyer is stuck (22% of $499 buyers upgraded) is how I'd think about coin packs and passes: price on the moment, not the quantity.",
       summary: {
-        problem: "US job seekers were buying point solutions — CV writers, LinkedIn optimisers, interview coaching — and still not getting callbacks.",
-        did: "Drove the pivot from a long-cycle ISA product to H2H, an expert-led program: 7-module bundle, personas, 3-tier pricing, a 4-week launch plan and an 8-stage funnel.",
-        landed: "~65 → ~300 sign-ups in two months through funnel-led CTAs, including a free résumé audit mapped into the website flow with Engineering."
+        problem: "US job seekers were buying point solutions (CV writers, LinkedIn optimisers, interview coaching) and still not getting callbacks. H2H's own offer, pay after placement (an ISA), left revenue waiting on each customer's job search.",
+        did: "Pivoted to upfront pricing after 60+ interviews, a payback analysis and 15+ rivals. Built a 5-metric LinkedIn scoring model (0–100), packaged ~30 features into 3 tiers ($499 to $1,300), launched to 2 personas across 5 priority US states, and ran the funnel experiments.",
+        landed: "~$110K in 2 months at 6x ROAS. Sign-ups grew 4.6×, 8% of 1,500+ sign-ups converted to paid, 22% of $499 buyers upgraded, and 90% of 150+ orders were delivered on time."
       },
       details: [
-        ["My role", "Assistant Project Manager — product definition, personas, pricing, GTM, funnel modelling"],
+        ["My role", "Assistant Project Manager — discovery, pricing, packaging, launch, growth experiments and delivery"],
         ["When", "Aug 2025 – Jun 2026 · Remote"],
-        ["Market", "US job seekers, twenty ranked states, five Tier A launch markets"],
-        ["Output", "7-module bundle, 3-tier pricing, 4-week launch plan, funnel model"]
+        ["Market", "US job seekers · 2 personas · 5 priority states"],
+        ["Output", "Upfront pricing, 3 tiers, a 0–100 LinkedIn score, the launch, delivery SLAs"]
       ],
       metrics: [
-        { v: "60+", l: "customer interviews", p: "result" },
-        { v: "15+", l: "competitors benchmarked across 20 US states", p: "result" },
-        { v: "48.2M → 365", l: "reach modelled down an 8-stage funnel to a ~$349K launch target", p: "modelled" },
-        { v: "4 teams", l: "Marketing, Sales, Delivery and Tech aligned on MVP scope", p: "result" }
+        { v: "~$110K", l: "revenue in 2 months at 6x ROAS", p: "result" },
+        { v: "4.6×", l: "sign-ups: form drop-off cut from 72% to 45%, 18% of drop-offs recovered via email", p: "result" },
+        { v: "8%", l: "of 1,500+ sign-ups converted to paid, with a free résumé audit as the lead magnet", p: "result" },
+        { v: "22%", l: "of $499 buyers upgraded across the 3 tiers", p: "result" },
+        { v: "90%", l: "on-time delivery across 150+ orders", p: "result" },
+        { v: "60+", l: "interviews, a payback analysis and 15+ rivals behind the pricing pivot", p: "result" }
       ],
       sections: [
+        { h: "The pivot: pay after placement → pay upfront",
+          p: "H2H began as an ISA: the customer pays once hired, so revenue waits on someone else's hiring cycle. After 60+ interviews, a payback analysis and benchmarking 15+ rivals, it moved to upfront pricing." },
         { h: "Priced on where the buyer is stuck",
           tiers: [["Interview Accelerator", "$499", "Stuck before the interview"], ["Offer Builder", "$899", "Stuck at conversion"], ["Offer Accelerator", "$1,300", "Stuck at the offer"]],
-          p: "Each tier is named for the point in the hiring funnel where that buyer is failing, so the upgrade path is a diagnosis rather than an upsell. Tiers tie service scope to SLAs and map to outcomes — interview calls, conversion, offer close." },
+          p: "About 30 features packaged into three tiers, each named for where the buyer is failing. A 5-metric LinkedIn scoring model (0–100) made profile gaps measurable and anchored which tier a buyer needed, so the upgrade is a diagnosis rather than an upsell. 22% of $499 buyers upgraded." },
         { h: "Two personas, failing for opposite reasons",
-          compare: [["The Tech Transitioner · 22.6M", "26–40, moving into tech from sales, ops, teaching. Real skills buried in non-tech language; no portfolio."], ["The ATS Victim · 25.6M", "22–35, already qualified, 50–100+ applications a week off one generic résumé, auto-rejected on keywords."]] },
-        { h: "Launch",
-          p: "A 4-week GTM across three launch phases and three acquisition channels, each matched to a persona. Addressable figures are platform-derived estimates (Modelled)." }
+          compare: [["The Tech Transitioner · 22.6M", "26–40, moving into tech from sales, ops, teaching. Real skills buried in non-tech language; no portfolio."], ["The ATS Victim · 25.6M", "22–35, already qualified, 50–100+ applications a week off one generic résumé, auto-rejected on keywords."]],
+          p: "H2H launched to both. Addressable figures are platform-derived estimates (Modelled)." },
+        { h: "Growth: fixing the funnel",
+          steps: [["The form · drop-off 72% → 45%", "Cut the sign-up form's drop-off from 72% to 45%."], ["Email recovery · 18% back", "Followed up the people who left the form; 18% of them came back."], ["Lead magnet · 8% to paid", "A free résumé audit, shipped with Engineering, as the first step. 8% of 1,500+ sign-ups went on to pay."]],
+          p: "Launched to 2 personas across 5 priority US states: ~$110K in 2 months at 6x ROAS, with sign-ups up 4.6×." },
+        { h: "Delivery",
+          p: "SLAs, SOPs and hand-offs set across 3 teams held on-time delivery at 90% across 150+ orders." }
       ]
     },
 
@@ -534,16 +542,17 @@ window.NJ = {
       id: "cogent", type: "work", org: "Cogent Infotech", logo: "assets/logos/cogent.svg",
       title: "Assistant Project Manager – Product Development", when: "Aug 2025 – Jun 2026", where: "Remote",
       status: "delivered", statusText: "Delivered · Jun 2026",
-      body: "Drove the pivot from a long-cycle ISA product to H2H (Human to Human), an expert-led US career-prep program. Owned discovery, requirements, pricing and the go-to-market plan behind it.",
+      body: "Took H2H (Human to Human), an expert-led US career-prep program, from pay-after-placement (ISA) to upfront pricing, then launched it and ran the growth experiments. Owned discovery, pricing, packaging, launch and delivery.",
       bullets: [
-        ["~65 → ~300", "sign-ups in two months through funnel-led CTAs, including a free résumé audit built into the website flow with Engineering"],
-        ["60+", "customer interviews to find the unmet needs behind one unified product"],
-        ["15+", "competitors benchmarked across 20 US states → a 7-module bundle"],
-        ["3 tiers", "priced at $499 / $899 / $1,300, tied to SLAs and outcomes"],
-        ["48.2M", "addressable audience modelled down an 8-stage funnel to a 365-customer, ~$349K launch target"],
-        ["4 teams", "Marketing, Sales, Delivery and Tech aligned on MVP scope and success metrics"]
+        ["~$110K", "in 2 months at 6x ROAS, launching H2H to 2 personas across 5 priority US states"],
+        ["4.6×", "sign-ups, by cutting form drop-off from 72% to 45% and recovering 18% of drop-offs via email"],
+        ["8%", "of 1,500+ sign-ups converted to paid, with a free résumé audit shipped with Engineering as the lead magnet"],
+        ["60+", "interviews, a payback analysis and 15+ rivals behind the pivot from pay-after-placement (ISA) to upfront pricing"],
+        ["0–100", "LinkedIn scoring model on 5 metrics that made profile gaps measurable and anchored all 3 tiers"],
+        ["22%", "of $499 buyers upgraded, after packaging ~30 features into 3 tiers ($499 to $1,300)"],
+        ["90%", "on-time delivery across 150+ orders, by setting SLAs, SOPs and hand-offs for 3 teams"]
       ],
-      track: [["Joined", "Aug 2025"], ["H2H pivot", "Discovery & pricing"], ["Launch", "4-week GTM"], ["Delivered", "Jun 2026"]],
+      track: [["Joined", "Aug 2025"], ["Pivot", "ISA → upfront pricing"], ["Launch", "~$110K in 2 months"], ["Delivered", "Jun 2026"]],
       related: ["h2h"]
     },
     {
@@ -610,7 +619,7 @@ window.NJ = {
 
   faq: [
     ["Why Pocket FM?",
-     "Because growth at Pocket FM is a money problem as much as a marketing one. The micropayment model means every listener's journey ends at a payment: a cliffhanger, a paywall, a coin pack, a top-up that has to go through. I spent two years inside PhonePe's payment rails (success rates, routing, reconciliation), then built a growth plan around conversion and repeat instead of spend, priced a sachet-to-carton ladder, and took a product from ~65 to ~300 sign-ups through the funnel. Pocket FM sits where those meet: funnels, pricing, payments and retention, at a scale where one point of conversion is real money."],
+     "Because growth at Pocket FM is a money problem as much as a marketing one. The micropayment model means every listener's journey ends at a payment: a cliffhanger, a paywall, a coin pack, a top-up that has to go through. I spent two years inside PhonePe's payment rails (success rates, routing, reconciliation), then built a growth plan around conversion and repeat instead of spend, priced a sachet-to-carton ladder, and launched a product that made ~$110K in two months at 6x ROAS, growing sign-ups 4.6× by fixing the funnel. Pocket FM sits where those meet: funnels, pricing, payments and retention, at a scale where one point of conversion is real money."],
     ["What roles are you looking for?",
      "Growth Manager roles: user acquisition and payback, monetisation and pricing, retention and win-back, or payments and checkout conversion. Also product roles on 0→1 teams that need someone comfortable in both the spreadsheet and the spec."],
     ["What do the Result / Built / Modelled labels mean?",
